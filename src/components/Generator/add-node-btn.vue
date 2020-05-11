@@ -1,5 +1,5 @@
 <template>
-  <div class="add-node-btn">
+  <div class="add-node-btn" >
     <button
       class="btn"
       type="button"
@@ -20,6 +20,7 @@
     <AddNodeDialog
       :dialog.sync="dialog"
       :node="node"
+      :imgType="imgType"
       @addnode="addnode"
     />
   </div>
@@ -38,10 +39,17 @@ export default {
     }
   },
   data: () => ({
-    dialog: false
+    dialog: false,
+    showButton:true,
+    imgType:"",
   }),
   methods: {
     click () {
+      if(this.node.type=="condition"){
+          this.imgType="1"
+      }else{
+        this.imgType="2"
+      }
       this.dialog = true
     },
     addnode (node) {

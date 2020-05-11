@@ -62,8 +62,8 @@ export default {
     }
   },
   methods: {
-    addnode () {
-      this.$emit('addnode')
+    addnode (node) {
+      this.$emit('addnode',node)
     },
     delConditionNode () {
       this.$emit('delConditionNode')
