@@ -87,6 +87,7 @@
   </div>
 </template>
 <script>
+import Node from './../AModal/AModal'
 import AModal from './../AModal/AModal'
 import EndNode from './end-node'
 import ErrorsModal from './errors-modal'
@@ -96,7 +97,8 @@ export default {
   components: {
     EndNode,
     AModal,
-    ErrorsModal
+    ErrorsModal,
+	Node
   },
   props: {
     data: {

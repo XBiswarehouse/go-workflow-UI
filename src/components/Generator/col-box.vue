@@ -31,6 +31,9 @@
 import { iteratorData, addNewNode, delNode } from './process'
 export default {
   name: 'ColBox',
+  components: {
+	Node: () => import('./node')
+  }
   props: {
     node: {
       type: Object,

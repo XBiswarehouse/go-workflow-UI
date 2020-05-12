@@ -45,11 +45,6 @@ export default {
   }),
   methods: {
     click () {
-      if(this.node.type=="condition"){
-          this.imgType="1"
-      }else{
-        this.imgType="2"
-      }
       this.dialog = true
     },
     addnode (node) {
