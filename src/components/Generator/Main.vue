@@ -87,7 +87,7 @@
   </div>
 </template>
 <script>
-import Node from './../AModal/AModal'
+import Node from './node'
 import AModal from './../AModal/AModal'
 import EndNode from './end-node'
 import ErrorsModal from './errors-modal'
