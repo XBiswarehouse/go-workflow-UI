@@ -30,13 +30,13 @@
         </div>
       </div>
       <div class="fd-nav-right">
-        <button
+        <!-- <button
           type="button"
           class="ant-btn button-preview"
           @click="preview"
         >
           <span>预 览</span>
-        </button>
+        </button> -->
         <button
           type="button"
           class="ant-btn button-preview"
