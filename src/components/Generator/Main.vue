@@ -42,7 +42,7 @@
           class="ant-btn button-preview"
           @click="save"
         >
-          <span>发 布</span>
+          <span>保存</span>
         </button>
       </div>
     </div>
